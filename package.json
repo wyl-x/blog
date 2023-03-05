@@ -5,7 +5,9 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
+    "highlight.js": "^11.9.0",
     "lodash": "^4.17.21",
+    "markdown-it-container": "^4.0.0",
     "sass": "^1.69.7",
     "vitepress": "^1.0.0-rc.14"
   }

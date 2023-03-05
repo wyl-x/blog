@@ -1,4 +1,5 @@
 import {defineConfig} from 'vitepress'
+import {mdPlugin} from './config/plugin'
 import path from 'path'
 
 console.log('defineConfig', 123)
@@ -12,9 +13,12 @@ export default defineConfig({
         resolve: {
             // https://cn.vitejs.dev/config/#resolve-alias
             alias: {
-                '@': path.resolve(__dirname, '../demo')
+                '@': path.resolve(__dirname, '../example')
             }
         },
+    },
+    markdown: {
+        config: (md) => mdPlugin(md),
     },
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config

@@ -1,13 +1,18 @@
 <template>
-  <ky-time-line style="margin-top: 40px" :active-method="activeMethod" :data="dataList">
-    <ky-time-line-item v-for="(item, index) in dataList" :key="index" :index="index">
+  <ky-time-line :active-method="activeMethod" :data="dataList">
+    <ky-time-line-item
+      v-for="(item, index) in dataList"
+      :key="index"
+      :index="index">
       <div class="point-item">
         <div class="img-wrap">
           <img v-show="item.done" src="../assets/point-a.svg" alt=""/>
           <img v-show="!item.done" src="../assets/point.svg" alt=""/>
         </div>
         <div class="content">
-          <div class="point-name" :class="{ active: item.done }">{{ item.pointName }}</div>
+          <div class="point-name" :class="{ active: item.done }">
+            {{ item.pointName }}
+          </div>
           <div class="user-wrap" v-if="item.done">
             <div class="user-name text-sm">{{ item.name }}</div>
             <div class="time text-sm">{{ item.time || '--' }}</div>
