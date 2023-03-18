@@ -1,7 +1,14 @@
 <template>
   <div class="wrap">
-    <move-view :interval="2000" :duration="1500" :step="5">
-      <div class="list-item" v-for="item in dataList" :key="item.pointName">{{ item.pointName }}</div>
+    <move-view
+      :interval="2000"
+      :duration="1500"
+      :step="5">
+      <div class="list-item"
+           v-for="item in dataList"
+           :key="item.pointName">
+        {{ item.pointName }}
+      </div>
     </move-view>
   </div>
 </template>

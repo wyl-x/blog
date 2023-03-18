@@ -5,7 +5,7 @@ import path from 'path'
 console.log('defineConfig', 123)
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-    title: "QWER",
+    title: "组件库",
     description: "A VitePress Site",
     srcDir: 'src',
     assetsDir: 'assets',
@@ -42,14 +42,14 @@ export default defineConfig({
             '/demo/': {
                 base: '/demo/',
                 items: [
-                    {text: 'syntax', link: '/md-demo'}
+                    {text: 'markdown高亮', link: '/md-demo'}
                 ]
             }
         },
 
 
         socialLinks: [
-            {icon: 'github', link: 'https://github.com/vuejs/vitepress'}
+            {icon: 'github', link: 'https://github.com/wyl-x'}
         ]
     }
 })

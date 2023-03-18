@@ -1,16 +1,16 @@
 <template>
-  <div class="card">
+  <div class="yl-card">
     <div style="font-weight:bold;" v-if="description">{{ description }}</div>
     <hr>
     <component :is="Comp"></component>
     <hr>
 
     <div style="display: flex;justify-content: flex-end">
-      <div @click="toggleCode" class="button">
-        <div class="box">查</div>
-        <div class="box">看</div>
-        <div class="box">源</div>
-        <div class="box">码</div>
+      <div @click="toggleCode" class="yl-button">
+        <div class="yl-box">查</div>
+        <div class="yl-box">看</div>
+        <div class="yl-box">源</div>
+        <div class="yl-box">码</div>
       </div>
     </div>
 

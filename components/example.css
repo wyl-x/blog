@@ -1,10 +1,10 @@
 /*按钮*/
 
-.button {
+.yl-button {
     display: flex;
 }
 
-.box {
+.yl-box {
     width: 35px;
     height: 40px;
     display: flex;
@@ -20,7 +20,7 @@
     overflow: hidden;
 }
 
-.box:before {
+.yl-box:before {
     content: "鸡";
     position: absolute;
     top: 0;
@@ -34,28 +34,28 @@
     transition: transform .4s;
 }
 
-.box:nth-child(2)::before {
+.yl-box:nth-child(2)::before {
     transform: translateY(-100%);
     content: '你';
 }
 
-.box:nth-child(3)::before {
+.yl-box:nth-child(3)::before {
     content: '太';
 }
 
-.box:nth-child(4)::before {
+.yl-box:nth-child(4)::before {
     transform: translateY(-100%);
     content: '美';
 }
 
 
-.button:hover .box:before {
+.yl-button:hover .yl-box:before {
     transform: translateY(0);
 }
 
 
 /*卡片*/
-.card {
+.yl-card {
     box-shadow: 4.8px 9.3px 96.2px rgba(0, 0, 0, 0.028),
     16.1px 31.3px 184.6px rgba(0, 0, 0, 0.042),
     72px 140px 500px rgba(0, 0, 0, 0.07);
