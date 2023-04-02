@@ -24,27 +24,30 @@ export default defineConfig({
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             {text: 'Home', link: '/'},
-            {text: 'Components', link: 'components/timeline', activeMatch: '/components/'},
-            {text: 'Demo', link: '/demo/md-demo', activeMatch: '/demo/'},
+            {text: '组件', link: 'components/timeline', activeMatch: '/components/'},
+            {text: '笔记', link: 'demo/md-demo', activeMatch: '/demo/'},
         ],
 
         sidebar: {
-            '/components/': [
+            '/components': [
                 {
-                    text: '组件',
+                    text: '数据展示',
                     base: '/components',
                     items: [
                         {text: '时间线', link: '/timeline'},
-                        {text: '滚屏组件', link: '/move-view'},
+                        {text: '滚屏', link: '/move-view'},
                     ]
                 },
             ],
-            '/demo/': {
-                base: '/demo/',
-                items: [
-                    {text: 'markdown高亮', link: '/md-demo'}
-                ]
-            }
+            '/demo': [
+                {
+                    text: 'Demo',
+                    base: '/demo',
+                    items: [
+                        {text: 'markdown高亮', link: '/md-demo'},
+                    ]
+                }
+            ]
         },
 
 
