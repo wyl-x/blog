@@ -2,7 +2,6 @@ import {defineConfig} from 'vitepress'
 import {mdPlugin} from './config/plugin'
 import path from 'path'
 
-console.log('defineConfig', 123)
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     title: "组件库",

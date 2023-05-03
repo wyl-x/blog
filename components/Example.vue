@@ -1,22 +1,24 @@
 <template>
-  <div class="yl-card">
-    <div style="font-weight:bold;" v-if="description">{{ description }}</div>
-    <hr>
-    <component :is="Comp"></component>
-    <hr>
+  <ClientOnly>
+    <div class="yl-card">
+      <div style="font-weight:bold;" v-if="description">{{ description }}</div>
+      <hr>
+      <component :is="Comp"></component>
+      <hr>
 
-    <div style="display: flex;justify-content: flex-end">
-      <div @click="toggleCode" class="yl-button">
-        <div class="yl-box">查</div>
-        <div class="yl-box">看</div>
-        <div class="yl-box">源</div>
-        <div class="yl-box">码</div>
+      <div style="display: flex;justify-content: flex-end">
+        <div @click="toggleCode" class="yl-button">
+          <div class="yl-box">查</div>
+          <div class="yl-box">看</div>
+          <div class="yl-box">源</div>
+          <div class="yl-box">码</div>
+        </div>
       </div>
+
+
+      <pre v-show="codeVisible" class="theme-atom-one-dark"><code class="hljs" v-html="highlightedCode"></code></pre>
     </div>
-
-
-    <pre v-show="codeVisible" class="theme-atom-one-dark"><code class="hljs" v-html="highlightedCode"></code></pre>
-  </div>
+  </ClientOnly>
 </template>
 
 <script setup>

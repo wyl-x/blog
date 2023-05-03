@@ -22,9 +22,9 @@
   </div>
 </template>
 
-<script lang="ts" setup>
-import { throttle } from 'lodash'
-import { defineProps, nextTick, onMounted, ref, useSlots, watch } from 'vue'
+<script setup>
+import {defineProps, nextTick, onMounted, ref, useSlots, watch} from 'vue'
+import throttle from 'lodash/throttle'
 
 /**
  功能：页面内容滚动显示

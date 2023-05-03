@@ -6,7 +6,7 @@ import mdContainer from 'markdown-it-container'
 export const mdPlugin = (md) => {
     md.use(mdContainer, 'demo', {
         validate(params) {
-            console.log('params', params)
+            // console.log('params', params)
             return !!params.trim().match(/^demo\s*(.*)$/)
         },
 
@@ -15,11 +15,11 @@ export const mdPlugin = (md) => {
             if (tokens[idx].nesting === 1 /* means the tag is opening */) {
                 const description = m && m.length > 1 ? m[1] : ''
                 const sourceFileToken = tokens[idx + 2]
-                console.log('description', description)
+                // console.log('description', description)
 
                 let source = ''
                 const sourceFile = sourceFileToken.children?.[0].content ?? ''
-                console.log('sourceFile', sourceFile)
+                // console.log('sourceFile', sourceFile)
 
                 if (sourceFileToken.type === 'inline') {
                     source = fs.readFileSync(

@@ -6,8 +6,8 @@
 </template>
 
 <script setup name="KyTimeLine">
-import { ref, onMounted, provide, watch, onBeforeUnmount } from 'vue'
-import { throttle } from 'lodash'
+import {ref, onMounted, provide, watch, onBeforeUnmount} from 'vue'
+import throttle from 'lodash/throttle'
 
 const props = defineProps({
   data: {
