@@ -7,6 +7,7 @@ export default defineConfig({
     title: "组件库",
     description: "A VitePress Site",
     srcDir: 'src',
+    base: '/blog/',
     assetsDir: 'assets',
     vite: {
         resolve: {
