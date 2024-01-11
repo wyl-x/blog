@@ -1,0 +1,27 @@
+# 实用工具、网页
+
+- [https://picsum.photos/](https://picsum.photos/)
+    - 随机图片占位符
+    - 例如需要一张400*300的图片 `https://picsum.photos/400/300`
+    - ![图片](https://picsum.photos/400/300)
+- [https://icon-sets.iconify.design/](https://icon-sets.iconify.design/)
+    - 图标 Iconify
+    - 各种图标
+- [https://jex.im/regulex/](https://jex.im/regulex/)
+    - 正则表达式可视化
+    - 复杂的正则表达式一看就懂
+- [https://coolors.co/generate](https://coolors.co/generate)
+    - 随机生成颜色
+    - 按空格切换颜色
+- [https://easychuan.cn/](https://easychuan.cn/)
+    - 轻松传
+    - 2台电脑之间传文件,只需要浏览器
+- [https://wyl-x.github.io/time-format/](https://wyl-x.github.io/time-format/)
+    - 时间格式化
+    - 可输入 秒时间戳 or 毫秒时间戳 or 时间字符串
+- [https://box-shadow.dev/](https://box-shadow.dev/)
+    - 可视化生成css阴影代码
+- [https://neumorphism.io/#e0e0e0](https://neumorphism.io/#e0e0e0)
+    - 一个拟物的阴影生成工具，帮你创建具有质感的拟物阴影。
+- [https://uiverse.io/buttons](https://uiverse.io/buttons)
+    - 各种CSS实现的按钮

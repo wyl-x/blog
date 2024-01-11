@@ -60,7 +60,6 @@ function getSideBar() {
 
     }
   })
-  console.log(JSON.stringify(sidebar))
   return sidebar
 }
 
