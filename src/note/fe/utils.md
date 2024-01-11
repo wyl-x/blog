@@ -14,13 +14,13 @@
     - 随机生成颜色
     - 按空格切换颜色
 - [https://easychuan.cn/](https://easychuan.cn/)
-    - 轻松传
-    - 2台电脑之间传文件,只需要浏览器
+  - 轻松传
+  - 2台电脑之间传文件,只需要浏览器
 - [https://wyl-x.github.io/time-format/](https://wyl-x.github.io/time-format/)
-    - 时间格式化
-    - 可输入 秒时间戳 or 毫秒时间戳 or 时间字符串
+  - 时间格式化, 网上的感觉不好用，自己简单写了一个
+  - 可输入 秒时间戳 or 毫秒时间戳 or 时间字符串 等等格式
 - [https://box-shadow.dev/](https://box-shadow.dev/)
-    - 可视化生成css阴影代码
+  - 可视化生成css阴影代码
 - [https://neumorphism.io/#e0e0e0](https://neumorphism.io/#e0e0e0)
     - 一个拟物的阴影生成工具，帮你创建具有质感的拟物阴影。
 - [https://uiverse.io/buttons](https://uiverse.io/buttons)
