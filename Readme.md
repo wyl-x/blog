@@ -1,6 +1,6 @@
 # 学习笔记
 
-![https://github.com/wyl-x/blog/workflows/Deploy%20VitePress%20site%20to%20Pages/badge.svg](https://github.com/wyl-x/blog/workflows/Deploy%20VitePress%20site%20to%20Pages/badge.svg)
+![https://github.com/wyl-x/blog/deployments](https://github.com/wyl-x/blog/workflows/Deploy%20VitePress%20site%20to%20Pages/badge.svg)
 
 - 地址: [https://wyl-x.github.io/blog](https://wyl-x.github.io/blog)
 - 一些代码片段、笔记等
